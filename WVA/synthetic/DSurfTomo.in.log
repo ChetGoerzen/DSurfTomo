@@ -1,0 +1,21 @@
+
+                          S U R F  T O M O
+ PLEASE contact Hongjain Fang (fanghj@mail.ustc.edu.cn) if you find any bug
+
+ model origin:latitude,longitue
+ -38.40000 177.94501
+ grid spacing:latitude,longitue
+   0.00600   0.00900
+ model dimension:nx,ny,nz
+   36   36   10
+ Rayleigh wave phase velocity used,periods:(s)
+   1.00   2.00   3.00   4.00   5.00   6.00   7.00   8.00   9.00  10.00  11.00  12.00
+ Rayleigh wave group velocity used,periods:(s)
+   1.00   2.00   3.00   4.00   5.00   6.00   7.00   8.00   9.00  10.00  11.00  12.00  13.00  14.00  15.00
+ Maximum and Average DWS values:   1902.45813       48.2112808    
+ 1th iteration...
+mean,std_devs and rms of residual:  -1332.5ms  1300.07ms    1.862
+min and max velocity variation -0.2568 0.3753
+ Program finishes successfully
+ Output True velocity model to Vs_model.real
+ Output inverted shear velocity model to DSurfTomo.inSyn.dat                                                                                 
