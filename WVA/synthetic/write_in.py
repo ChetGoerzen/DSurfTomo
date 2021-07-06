@@ -15,7 +15,7 @@ damp = 1.0
 sablayers = 3
 minvel = 0.1
 maxvel = 3.0
-niter = 1
+niter = 2
 synthetic = 1
 
 
@@ -45,7 +45,7 @@ with open("DSurfTomo.in", "w") as nFile:
     nFile.write(f"0                                c: kmaxLg\n")
     nFile.write(f"{synthetic}                                c: synthetic flag(0:real data,1:synthetic)\n")
     nFile.write(f"0.02                             c: noise level\n")
-    nFile.write(f"1.5                              c: threshold\n")
+    nFile.write(f"3.0                              c: threshold\n")
     nFile.write(f"1 200 50 c: vorotomo,ncells,nrelizations")
     nFile.close()
 

@@ -12,10 +12,14 @@
    1.00   2.00   3.00   4.00   5.00   6.00   7.00   8.00   9.00  10.00  11.00  12.00
  Rayleigh wave group velocity used,periods:(s)
    1.00   2.00   3.00   4.00   5.00   6.00   7.00   8.00   9.00  10.00  11.00  12.00  13.00  14.00  15.00
- Maximum and Average DWS values:   1902.45813       48.2112808    
+ Maximum and Average DWS values:   1623.16089       39.7439156    
  1th iteration...
-mean,std_devs and rms of residual:  -1332.5ms  1300.07ms    1.862
-min and max velocity variation -0.2568 0.3753
+mean,std_devs and rms of residual:  -1356.5ms  1746.22ms    2.211
+min and max velocity variation -0.5272 0.8243
+ Maximum and Average DWS values:   1956.83289       35.5679474    
+ 2th iteration...
+mean,std_devs and rms of residual:    570.0ms   668.56ms    0.879
+min and max velocity variation -0.5100 0.8982
  Program finishes successfully
  Output True velocity model to Vs_model.real
  Output inverted shear velocity model to DSurfTomo.inSyn.dat                                                                                 
