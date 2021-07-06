@@ -9,9 +9,9 @@ import numpy as np
 nx=36
 ny=36
 minvel=0.8
-velgrad=0.15
+velgrad=0.05
 nz = 10
-dep1=np.linspace(0, 10, nz)#np.array([0,0.2,0.4,0.6,0.8,1.1,1.4,1.8,2.5])
+dep1=np.linspace(0, 9, nz)#np.array([0,0.2,0.4,0.6,0.8,1.1,1.4,1.8,2.5])
 #dep1=np.array([0,0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1.1,1.3,1.5,1.8,2.1,2.5])
 #nz=len(dep1)
 #end
