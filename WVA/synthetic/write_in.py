@@ -46,6 +46,6 @@ with open("DSurfTomo.in", "w") as nFile:
     nFile.write(f"{synthetic}                                c: synthetic flag(0:real data,1:synthetic)\n")
     nFile.write(f"0.02                             c: noise level\n")
     nFile.write(f"3.0                              c: threshold\n")
-    nFile.write(f"1 200 50 c: vorotomo,ncells,nrelizations")
+    nFile.write(f"1 200 500 c: vorotomo,ncells,nrelizations")
     nFile.close()
 
