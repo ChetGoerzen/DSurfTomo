@@ -15,11 +15,11 @@
  Maximum and Average DWS values:   1623.16089       39.7439156    
  1th iteration...
 mean,std_devs and rms of residual:  -1356.5ms  1746.22ms    2.211
-min and max velocity variation -0.5272 0.8243
- Maximum and Average DWS values:   1956.83289       35.5679474    
+min and max velocity variation -0.4882 0.7697
+ Maximum and Average DWS values:   1958.89722       35.2495003    
  2th iteration...
-mean,std_devs and rms of residual:    570.0ms   668.56ms    0.879
-min and max velocity variation -0.5100 0.8982
+mean,std_devs and rms of residual:    576.8ms   675.46ms    0.888
+min and max velocity variation -0.4316 0.8170
  Program finishes successfully
  Output True velocity model to Vs_model.real
  Output inverted shear velocity model to DSurfTomo.inSyn.dat                                                                                 
