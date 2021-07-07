@@ -2,20 +2,20 @@ import numpy as np
 
 maxPer = 12.3
 
-nx = 36
-ny = 36
-nz = 10
+nx = 60
+ny = 60
+nz = 20
 goxd = -38.4
 gozd = 177.945
-dvxd = 0.006
-dvzd = 0.009
+dvxd = 0.0036
+dvzd = 0.0054
 nsrc = 1526
 weight = 3.0
-damp = 1.0
+damp = 0.01
 sablayers = 3
 minvel = 0.1
 maxvel = 3.0
-niter = 3
+niter = 2
 synthetic = 0
 
 
@@ -46,6 +46,6 @@ with open("DSurfTomo.in", "w") as nFile:
     nFile.write(f"{synthetic}                                c: synthetic flag(0:real data,1:synthetic)\n")
     nFile.write(f"0.02                             c: noise level\n")
     nFile.write(f"3.0                              c: threshold\n")
-    nFile.write(f"1 100 500 c: vorotomo,ncells,nrelizations")
+    nFile.write(f"1 100 100 c: vorotomo,ncells,nrelizations")
     nFile.close()
 
