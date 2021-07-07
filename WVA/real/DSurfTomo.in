@@ -20,4 +20,4 @@ DSurfTomoJoint.dat                    c: data file
 0                                c: synthetic flag(0:real data,1:synthetic)
 0.02                             c: noise level
 3.0                              c: threshold
-1 100 100 c: vorotomo,ncells,nrelizations
+1 100 200 c: vorotomo,ncells,nrelizations
