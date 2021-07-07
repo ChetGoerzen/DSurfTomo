@@ -5,24 +5,20 @@
  model origin:latitude,longitue
  -38.40000 177.94501
  grid spacing:latitude,longitue
-   0.00600   0.00900
+   0.00360   0.00540
  model dimension:nx,ny,nz
-   36   36   10
+   60   60   20
  Rayleigh wave phase velocity used,periods:(s)
    1.00   2.00   3.00   4.00   5.00   6.00   7.00   8.00   9.00  10.00  11.00  12.00
  Rayleigh wave group velocity used,periods:(s)
    1.00   2.00   3.00   4.00   5.00   6.00   7.00   8.00   9.00  10.00  11.00  12.00  13.00  14.00  15.00
- Maximum and Average DWS values:   3549.33228       81.8052521    
+ Maximum and Average DWS values:   1119.39075       14.1368971    
  1th iteration...
-mean,std_devs and rms of residual:  -1291.5ms  1968.98ms    2.355
-min and max velocity variation -0.2820 0.4870
- Maximum and Average DWS values:   3755.88013       62.1973152    
+mean,std_devs and rms of residual:  -1291.2ms  1966.21ms    2.352
+min and max velocity variation -0.3292 0.4612
+ Maximum and Average DWS values:   1122.49487       10.9576206    
  2th iteration...
-mean,std_devs and rms of residual:    131.6ms  1090.12ms    1.098
-min and max velocity variation -0.2093 0.4012
- Maximum and Average DWS values:   4452.15723       60.8330498    
- 3th iteration...
-mean,std_devs and rms of residual:    -39.3ms   801.61ms    0.803
-min and max velocity variation -0.0636 0.2339
+mean,std_devs and rms of residual:    147.7ms  1139.35ms    1.149
+min and max velocity variation -0.1756 0.2721
  Program finishes successfully
  Output inverted shear velocity model to DSurfTomo.inMeasure.dat                                                                             
