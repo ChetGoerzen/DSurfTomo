@@ -1,0 +1,23 @@
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+c INPUT PARAMETERS
+cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc
+DSurfTomoJoint.dat                    c: data file
+60 60 20                   c: nx ny nz (grid number in lat lon depth direction)
+-38.4  177.945                   c: goxd gozd (upper left point,[lat,lon])
+0.0036 0.0054                    c: dvxd dvzd
+1526                           c: max(sources, receivers)
+3.0 0.01                  c: weight damp
+3                      c: sablayers
+0.1 3.0                c: min, max velocity
+10                          c: number of iterations
+0.2                              c: sparsity fraction
+12                               c: kmaxRc (followed by periods)
+1.0 2.0 3.0 4.0 5.0 6.0 7.0 8.0 9.0 10.0 11.0 12.0 c: periods
+15                                c: kmaxRg
+1.0 2.0 3.0 4.0 5.0 6.0 7.0 8.0 9.0 10.0 11.0 12.0 13.0 14.0 15.0 c: periods
+0                                c: kmaxLc
+0                                c: kmaxLg
+0                                c: synthetic flag(0:real data,1:synthetic)
+0.02                             c: noise level
+3.0                              c: threshold
+1 1000 400 c: vorotomo,ncells,nrelizations

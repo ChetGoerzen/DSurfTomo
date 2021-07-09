@@ -1,0 +1,56 @@
+
+                          S U R F  T O M O
+ PLEASE contact Hongjain Fang (fanghj@mail.ustc.edu.cn) if you find any bug
+
+ model origin:latitude,longitue
+ -38.40000 177.94501
+ grid spacing:latitude,longitue
+   0.00360   0.00540
+ model dimension:nx,ny,nz
+   60   60   20
+ Rayleigh wave phase velocity used,periods:(s)
+   1.00   2.00   3.00   4.00   5.00   6.00   7.00   8.00   9.00  10.00  11.00  12.00
+ Rayleigh wave group velocity used,periods:(s)
+   1.00   2.00   3.00   4.00   5.00   6.00   7.00   8.00   9.00  10.00  11.00  12.00  13.00  14.00  15.00
+ Maximum and Average DWS values:   907.726868       10.7915325    
+ 1th iteration...
+mean,std_devs and rms of residual:    349.2ms  1741.64ms    1.776
+min and max velocity variation -0.5850 0.5843
+ Maximum and Average DWS values:   1581.98535       11.7649918    
+ 2th iteration...
+mean,std_devs and rms of residual:   -518.9ms   876.75ms    1.019
+min and max velocity variation -0.0503 0.2295
+ Maximum and Average DWS values:   1224.80481       9.86645031    
+ 3th iteration...
+mean,std_devs and rms of residual:    235.8ms   733.55ms    0.771
+min and max velocity variation -0.1350 0.1596
+ Maximum and Average DWS values:   1254.52124       10.0481710    
+ 4th iteration...
+mean,std_devs and rms of residual:   -126.6ms   596.14ms    0.609
+min and max velocity variation -0.0567 0.1057
+ Maximum and Average DWS values:   1136.44788       9.37992382    
+ 5th iteration...
+mean,std_devs and rms of residual:    112.7ms   566.23ms    0.577
+min and max velocity variation -0.0514 0.0637
+ Maximum and Average DWS values:   1184.25171       9.58495903    
+ 6th iteration...
+mean,std_devs and rms of residual:    -54.2ms   525.71ms    0.528
+min and max velocity variation -0.0465 0.0611
+ Maximum and Average DWS values:   1119.44385       9.24584675    
+ 7th iteration...
+mean,std_devs and rms of residual:     64.7ms   510.89ms    0.515
+min and max velocity variation -0.0461 0.0436
+ Maximum and Average DWS values:   1158.33643       9.38124847    
+ 8th iteration...
+mean,std_devs and rms of residual:    -21.4ms   494.35ms    0.495
+min and max velocity variation -0.0424 0.0489
+ Maximum and Average DWS values:   1128.71570       9.18523693    
+ 9th iteration...
+mean,std_devs and rms of residual:     42.4ms   483.58ms    0.485
+min and max velocity variation -0.0469 0.0488
+ Maximum and Average DWS values:   1145.85156       9.26336002    
+10th iteration...
+mean,std_devs and rms of residual:     -6.0ms   473.67ms    0.474
+min and max velocity variation -0.0417 0.0469
+ Program finishes successfully
+ Output inverted shear velocity model to DSurfTomo.inMeasure.dat                                                                             
