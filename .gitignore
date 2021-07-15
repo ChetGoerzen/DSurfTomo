@@ -4,4 +4,6 @@ Applications
 example_*
 .gitignore
 temp
+**/DSurfTomo.in.log
+DSurfTomo.in.log
 
