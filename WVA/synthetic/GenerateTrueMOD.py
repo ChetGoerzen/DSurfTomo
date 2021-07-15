@@ -6,12 +6,12 @@ import numpy as np
 import matplotlib.pyplot as plt
 #parameters you need to change
 #start
-nx=36
-ny=36
-nz=10
+nx=60
+ny=60
+nz=20
 minvel=0.9
 velgrad=0.2
-dep1=np.linspace(0, 10, nz) #[0,0.2,0.4,0.6,0.8,1.1,1.4,1.8,2.5]
+dep1=np.array([0, 0.5, 1.0, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0, 4.5, 5.0, 5.5, 6.0, 6.5, 7.0, 7.5, 8.0, 8.5, 9.0, 9.5])
 anosize=0.5
 amplitude=0.4
 #end
