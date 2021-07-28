@@ -366,14 +366,25 @@ program SurfTomo
         cbst(i) = obst(i) - dsyn(i)
         enddo
 
-        call getpercentile(dall,cbst,q25,q75)
+        !call getpercentile(dall,cbst,q25,q75)
+        mean = sum(cbst(1:dall)) / dall
+        std_devs = sqrt(sum(cbst(1:dall)**2) / dall - mean**2)
         datweight = 1.0
+        
+        write(*,*) "Outlier threshold: ", threshold0 * std_devs
+
         do i = 1,dall
-        if (cbst(i)<q25*threshold0 .or. cbst(i)>q75*threshold0) then
-            datweight(i) = 0.0
-            cbst(i) = 0
-        endif
-        enddo
+            if (abs(cbst(i)) > threshold0 * std_devs) then
+                datweight(i) = 0.0
+                cbst(i) = 0
+            end if
+        end do
+
+        !if (cbst(i)<q25*threshold0 .or. cbst(i)>q75*threshold0) then
+        !    datweight(i) = 0.0
+        !    cbst(i) = 0
+        !endif
+        !enddo
        ! do i = 1,dall
        ! datweight(i) = 0.01+1.0/(1+0.05*exp(cbst(i)**2*threshold0))
        ! cbst(i) = cbst(i)*datweight(i)
