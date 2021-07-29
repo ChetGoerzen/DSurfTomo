@@ -12,46 +12,46 @@
    1.00   2.00   3.00   4.00   5.00   6.00   7.00   8.00   9.00  10.00  11.00  12.00
  Rayleigh wave group velocity used,periods:(s)
    1.00   2.00   3.00   4.00   5.00   6.00   7.00   8.00   9.00  10.00  11.00  12.00  13.00  14.00  15.00
- Maximum and Average DWS values:   1054.72986       11.0746174    
+ Maximum and Average DWS values:   1065.29114       11.1781645    
  1th iteration...
-mean,std_devs and rms of residual:  -1313.1ms   905.30ms    1.595
-min and max velocity variation -0.1150 0.3650
- Maximum and Average DWS values:   823.405396       8.61449528    
+mean,std_devs and rms of residual:  -1573.4ms  1248.56ms    2.009
+min and max velocity variation -0.2090 0.4220
+ Maximum and Average DWS values:   842.500610       8.11014080    
  2th iteration...
-mean,std_devs and rms of residual:    189.5ms   550.33ms    0.582
-min and max velocity variation -0.3838 0.4409
- Maximum and Average DWS values:   879.341370       9.08465576    
+mean,std_devs and rms of residual:    225.0ms   569.13ms    0.612
+min and max velocity variation -0.4736 0.4536
+ Maximum and Average DWS values:   1007.63623       8.36517239    
  3th iteration...
-mean,std_devs and rms of residual:    -89.0ms   373.42ms    0.384
-min and max velocity variation -0.3874 0.3041
- Maximum and Average DWS values:   871.711853       8.87043858    
+mean,std_devs and rms of residual:    -35.4ms   317.19ms    0.319
+min and max velocity variation -0.3833 0.2946
+ Maximum and Average DWS values:   1029.51697       8.40145206    
  4th iteration...
-mean,std_devs and rms of residual:     51.4ms   328.73ms    0.333
-min and max velocity variation -0.1774 0.3471
- Maximum and Average DWS values:   903.100220       8.88828373    
+mean,std_devs and rms of residual:     41.6ms   279.58ms    0.283
+min and max velocity variation -0.2232 0.3626
+ Maximum and Average DWS values:   1023.80878       8.42773819    
  5th iteration...
-mean,std_devs and rms of residual:    -38.5ms   193.79ms    0.198
-min and max velocity variation -0.0795 0.0923
- Maximum and Average DWS values:   876.294128       8.74844265    
+mean,std_devs and rms of residual:    -20.3ms   198.42ms    0.199
+min and max velocity variation -0.1327 0.1256
+ Maximum and Average DWS values:   1003.56073       8.38020325    
  6th iteration...
-mean,std_devs and rms of residual:     26.6ms   193.36ms    0.195
-min and max velocity variation -0.0565 0.0787
- Maximum and Average DWS values:   866.916687       8.75244236    
+mean,std_devs and rms of residual:     11.4ms   207.41ms    0.208
+min and max velocity variation -0.1524 0.0990
+ Maximum and Average DWS values:   1018.32068       8.36643887    
  7th iteration...
-mean,std_devs and rms of residual:    -11.5ms   171.63ms    0.172
-min and max velocity variation -0.0456 0.0494
- Maximum and Average DWS values:   858.966003       8.70209408    
+mean,std_devs and rms of residual:     -8.2ms   185.08ms    0.185
+min and max velocity variation -0.0947 0.0846
+ Maximum and Average DWS values:   1014.07916       8.33920956    
  8th iteration...
-mean,std_devs and rms of residual:     12.5ms   170.75ms    0.171
-min and max velocity variation -0.0503 0.0477
- Maximum and Average DWS values:   860.197205       8.71363163    
+mean,std_devs and rms of residual:      3.8ms   187.93ms    0.188
+min and max velocity variation -0.1022 0.0663
+ Maximum and Average DWS values:   1031.21838       8.32784653    
  9th iteration...
-mean,std_devs and rms of residual:     -0.1ms   165.84ms    0.166
-min and max velocity variation -0.0466 0.0458
- Maximum and Average DWS values:   855.675537       8.70635796    
+mean,std_devs and rms of residual:     -5.4ms   177.54ms    0.178
+min and max velocity variation -0.0676 0.0715
+ Maximum and Average DWS values:   1036.52673       8.32457542    
 10th iteration...
-mean,std_devs and rms of residual:      8.2ms   166.00ms    0.166
-min and max velocity variation -0.0464 0.0514
+mean,std_devs and rms of residual:      0.8ms   181.72ms    0.182
+min and max velocity variation -0.0734 0.0605
  Program finishes successfully
  Output True velocity model to Vs_model.real
  Output inverted shear velocity model to DSurfTomo.inSyn.dat                                                                                 

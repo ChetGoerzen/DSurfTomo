@@ -26,7 +26,7 @@ vs1=np.zeros(nz)
 xy=np.kron(np.sin(anosize*np.array(y)),np.sin(anosize*np.array(x)))
 xyz=np.kron(z,xy)
 pxy=xyz.reshape(nz,nmax,nmax)
-pxy[::3, :, :] *= -1
+#pxy[::3, :, :] *= -1
 for k in range(nz):
     for j in range(ny):
         for i in range(nx):
